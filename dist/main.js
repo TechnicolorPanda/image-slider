@@ -1,0 +1,1 @@
+(()=>{"use strict";var n;n=document.querySelector("#content"),document.createElement("div").classList.add("box"),n.innerHTML="\n        <div id = 'picture'>\n        <div class = 'display-container'>\n          <img src='images/kyrra1.jpg' alt='Kyrra in Wonder Woman pose'>\n        </div>\n      </div>\n      "})();

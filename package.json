@@ -1,0 +1,24 @@
+{
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description": "Creates a sample image slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnicolorPanda/image-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnicolorPanda/image-slider/issues"
+  },
+  "homepage": "https://github.com/TechnicolorPanda/image-slider#readme",
+  "devDependencies": {
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
