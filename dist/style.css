@@ -1,3 +1,47 @@
+/* standard style reset */
+html,
+body,
+header,
+nav,
+h1,
+a,
+ul,
+li,
+strong,
+main,
+button,
+i,
+section,
+img,
+div,
+h2,
+h3,
+h4,
+h5,
+p,
+form,
+fieldset,
+label,
+input,
+textarea,
+span,
+article,
+footer,
+time,
+small,
+aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -6,27 +50,16 @@ img {
 }
 
 .slide {
-    display: none;
-    float: left;
-    width: 40%;
-    padding: 5px;
-  }
-
-.display-container {
     max-width: 1000px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 33%;
+    margin-right: 33%;
     display: block;
-    width: 100%;
+    width: 34%;
     height: 15rem;
     text-align: center;
     align-items: center;
     border: 3px black;
-}
-
-#content {
-    align-items: center;
 }
 
 /* The dots/bullets/indicators */
@@ -40,9 +73,10 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
     position: relative;
-  }
+    top: 2rem;
+}
 
-  /* Creates advancement arrows. */
+/* Creates advancement arrows. */
 
   .prev, .next {
     cursor: pointer;
@@ -62,6 +96,13 @@ img {
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    margin-right: 20%;
+  }
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: 20%;
   }
 
   /* On hover, add a black background color with a little bit see-through. */
@@ -69,3 +110,26 @@ img {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.185);
   }
+
+  #content {
+    background-color: white;
+    margin: 0;
+    width: 90%;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    position: auto;
+    justify-content: space-evenly;
+    border: 10px;
+    border-radius: 1%;
+    display: block;
+  }
+
+  box {
+      position: absolute;
+      top: 80%;
+      margin-left: 42%;
+      align-items: center;
+      display: block;
+}
